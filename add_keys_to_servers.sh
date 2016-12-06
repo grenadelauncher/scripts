@@ -31,6 +31,7 @@ do
 done <$SERVER_LIST_FILE
 
 #for i in ${SERVER_LIST[*]}
+ diff $SERVER_LIST_FILE $INV
 #do
 
 #done
